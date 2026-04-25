@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<error>
+	<code>404 Not Found</code>
+	<message>Invalid URI: location is not an existing file.</message>
+</error>

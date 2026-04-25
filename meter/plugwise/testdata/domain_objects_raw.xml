@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain_objects>
+	<location id='be1c6ff8a356475295f4c283cf9a541a'>
+		<name>Home</name>
+		<description>A building with a smart meter.</description>
+		<type>building</type>
+		<created_date>2021-09-07T07:49:52.247+02:00</created_date>
+		<modified_date>2026-04-21T22:32:50.346+02:00</modified_date>
+		<deleted_date></deleted_date>
+		<preset>home</preset>
+		<clients/>
+		<appliances/>
+		<logs>
+			<cumulative_log id='0a589e5778984158a5d5ae81abac92a6'>
+				<type>electricity_produced</type>
+				<unit>Wh</unit>
+				<updated_date>2026-04-21T22:32:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:00+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_cumulative_meter id='0fb3e2722fa348318737b6cd30aabac1'/>
+				<period start_date="2026-04-21T22:32:00+02:00" end_date="2026-04-21T22:32:00+02:00">
+					<measurement log_date="2026-04-21T22:32:00+02:00" tariff="nl_peak">6908460.00</measurement>
+					<measurement log_date="2026-04-21T22:32:00+02:00" tariff="nl_offpeak">2714941.00</measurement>
+				</period>
+			</cumulative_log>
+			<point_log id='1f1058f50a0f497d86db365161d21f33'>
+				<type>electricity_phase_one_produced</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='0b6a2d822b084934b5946dd5f6ee977a'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">0.00</measurement>
+				</period>
+			</point_log>
+			<cumulative_log id='3cfc1b40e4b0407b87b2ce3df3d1b1dd'>
+				<type>gas_consumed</type>
+				<unit>m3</unit>
+				<updated_date>2026-04-21T22:30:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:30:00+02:00</last_consecutive_log_date>
+				<interval/>
+				<gas_cumulative_meter id='f3ad158f1f2f414aaff98b9480d4d160'/>
+				<period start_date="2026-04-21T22:30:00+02:00" end_date="2026-04-21T22:30:00+02:00">
+					<measurement log_date="2026-04-21T22:30:00+02:00">10987.49</measurement>
+				</period>
+			</cumulative_log>
+			<cumulative_log id='432e9a0089f9497b91cadcc6de16e8b6'>
+				<type>electricity_consumed</type>
+				<unit>Wh</unit>
+				<updated_date>2026-04-21T22:32:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:00+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_cumulative_meter id='0fb3e2722fa348318737b6cd30aabac1'/>
+				<period start_date="2026-04-21T22:32:00+02:00" end_date="2026-04-21T22:32:00+02:00">
+					<measurement log_date="2026-04-21T22:32:00+02:00" tariff="nl_peak">7090519.00</measurement>
+					<measurement log_date="2026-04-21T22:32:00+02:00" tariff="nl_offpeak">8884177.00</measurement>
+				</period>
+			</cumulative_log>
+			<point_log id='49ab970e0aea45eda57f818abe580514'>
+				<type>electricity_produced</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='050d696703614c61873fff511e9a3899'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00" tariff="nl_offpeak">0.00</measurement>
+					<measurement log_date="2026-04-21T22:32:50+02:00" tariff="nl_peak">0.00</measurement>
+				</period>
+			</point_log>
+			<point_log id='4a059d6c7b8a469d8c32ba7536f48f19'>
+				<type>electricity_consumed</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='050d696703614c61873fff511e9a3899'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00" tariff="nl_offpeak">0.00</measurement>
+					<measurement log_date="2026-04-21T22:32:50+02:00" tariff="nl_peak">312.00</measurement>
+				</period>
+			</point_log>
+			<point_log id='662945535c354f1e86d72b052a649853'>
+				<type>electricity_phase_one_consumed</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='0b6a2d822b084934b5946dd5f6ee977a'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">31.00</measurement>
+				</period>
+			</point_log>
+			<point_log id='71878a2d16c943578bd6a1d913ee69dd'>
+				<type>voltage_phase_two</type>
+				<unit>V</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<voltage_meter id='73dc9d8d889a4bf7b48df9bbc7418f25'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">229.80</measurement>
+				</period>
+			</point_log>
+			<interval_log id='71ebee9680b745b69624e3a04cb54b98'>
+				<type>gas_consumed</type>
+				<unit>m3</unit>
+				<updated_date>2026-04-21T22:00:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T21:00:00+02:00</last_consecutive_log_date>
+				<interval>PT1H</interval>
+				<gas_interval_meter id='67e9d82e358e4e91be4ad66a8a61722b'/>
+				<period start_date="2026-04-21T22:00:00+02:00" end_date="2026-04-21T22:00:00+02:00" interval="PT1H">
+					<measurement log_date="2026-04-21T22:00:00+02:00">0.00</measurement>
+				</period>
+			</interval_log>
+			<point_log id='83a8ac37bb5c482eb7b35e9a6f70fcf4'>
+				<type>voltage_phase_one</type>
+				<unit>V</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<voltage_meter id='66230965bf3446c3afb89b5dc25a05af'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">232.30</measurement>
+				</period>
+			</point_log>
+			<point_log id='87bab1269bd64378bc290bb3c0d0dbf9'>
+				<type>electricity_phase_two_consumed</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='82caf9894b064b3ab0a484cf37fef37d'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">203.00</measurement>
+				</period>
+			</point_log>
+			<interval_log id='915ed7cdea844fffb1d28bae2e1e2c39'>
+				<type>electricity_produced</type>
+				<unit>Wh</unit>
+				<updated_date>2026-04-21T22:30:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:25:00+02:00</last_consecutive_log_date>
+				<interval>PT5M</interval>
+				<electricity_interval_meter id='01c4e66c5a114cccaddd1cc03f4f2613'/>
+				<period start_date="2026-04-21T22:30:00+02:00" end_date="2026-04-21T22:30:00+02:00" interval="PT5M">
+					<measurement log_date="2026-04-21T22:30:00+02:00" tariff="nl_peak">0.00</measurement>
+					<measurement log_date="2026-04-21T22:30:00+02:00" tariff="nl_offpeak">0.00</measurement>
+				</period>
+			</interval_log>
+			<point_log id='95331019a6894c89a437e1f08575d975'>
+				<type>electricity_phase_three_consumed</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='923bbe3b27f4486c8e0312f8b18f00c9'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">77.00</measurement>
+				</period>
+			</point_log>
+			<point_log id='a3b9c1ecf28b4dbbb74c6ca00deed548'>
+				<type>voltage_phase_three</type>
+				<unit>V</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<voltage_meter id='eb17d97189d641cf91279ccfec65e692'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">231.20</measurement>
+				</period>
+			</point_log>
+			<interval_log id='ca733ff3c3974fd0b3978122ea9dbb0f'>
+				<type>electricity_consumed</type>
+				<unit>Wh</unit>
+				<updated_date>2026-04-21T22:30:00+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:25:00+02:00</last_consecutive_log_date>
+				<interval>PT5M</interval>
+				<electricity_interval_meter id='01c4e66c5a114cccaddd1cc03f4f2613'/>
+				<period start_date="2026-04-21T22:30:00+02:00" end_date="2026-04-21T22:30:00+02:00" interval="PT5M">
+					<measurement log_date="2026-04-21T22:30:00+02:00" tariff="nl_peak">11.00</measurement>
+					<measurement log_date="2026-04-21T22:30:00+02:00" tariff="nl_offpeak">0.00</measurement>
+				</period>
+			</interval_log>
+			<point_log id='cbdcc598e8ea4ae28cb235ae3e3efeef'>
+				<type>electricity_phase_two_produced</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='82caf9894b064b3ab0a484cf37fef37d'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">0.00</measurement>
+				</period>
+			</point_log>
+			<point_log id='e24a13e0c7084d519c1c351cd85ceffa'>
+				<type>electricity_phase_three_produced</type>
+				<unit>W</unit>
+				<updated_date>2026-04-21T22:32:50+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:32:50+02:00</last_consecutive_log_date>
+				<interval/>
+				<electricity_point_meter id='923bbe3b27f4486c8e0312f8b18f00c9'/>
+				<period start_date="2026-04-21T22:32:50+02:00" end_date="2026-04-21T22:32:50+02:00">
+					<measurement log_date="2026-04-21T22:32:50+02:00">0.00</measurement>
+				</period>
+			</point_log>
+		</logs>
+		<actuator_functionalities/>
+	</location>
+	<gateway id='1864af05ce794be38883ed35734fae5f'>
+		<created_date>2020-07-16T14:06:32.299+02:00</created_date>
+		<modified_date>2026-04-21T08:48:04.258+02:00</modified_date>
+		<deleted_date/>
+		<name></name>
+		<description></description>
+		<enabled>true</enabled>
+		<firmware_locked>false</firmware_locked>
+		<prevent_default_update>false</prevent_default_update>
+		<last_reset_date>2020-07-16T14:06:32.299+02:00</last_reset_date>
+		<last_boot_date>2025-12-06T18:26:55.120+01:00</last_boot_date>
+		<vendor_name>Plugwise</vendor_name>
+		<vendor_model>smile</vendor_model>
+		<hardware_version>AME Smile 2.0 board</hardware_version>
+		<firmware_version>4.4.4</firmware_version>
+		<mac_address>C49300136D91</mac_address>
+		<wifi_mac_address>C49300136D8F</wifi_mac_address>
+		<short_id>fjqvflns</short_id>
+		<send_data>true</send_data>
+		<anonymous>false</anonymous>
+		<lan_ip>192.168.200.79</lan_ip>
+		<wifi_ip></wifi_ip>
+		<hostname>smile136d91</hostname>
+		<time>2026-04-21T22:32:51+02:00</time>
+		<timezone>Europe/Amsterdam</timezone>
+		<ssh_relay>disabled</ssh_relay>
+		<project id='123306def5eb4172ae74435aea21e753'>
+			<visible_in_production>true</visible_in_production>
+			<is_default>false</is_default>
+			<name>Z -- Stock</name>
+			<description>Stock which was previously called fulfillment</description>
+			<deleted_date></deleted_date>
+			<created_date>2014-11-19T17:45:10+01:00</created_date>
+			<modified_date>2021-09-07T08:09:59.556+02:00</modified_date>
+		</project>
+		<gateway_environment id='2facec7e1b9349469a36f1bf2b0aae9d'>
+			<savings_result_value/>
+			<central_heating_brand/>
+			<central_heating_model/>
+			<central_heating_year_of_manufacture/>
+			<central_heating_installation_date/>
+			<thermostat_brand/>
+			<country/>
+			<city/>
+			<longitude/>
+			<electricity_production_tariff_structure>single</electricity_production_tariff_structure>
+			<gas_consumption_tariff>1.31</gas_consumption_tariff>
+			<electricity_consumption_single_tariff>0.34</electricity_consumption_single_tariff>
+			<electricity_consumption_peak_tariff/>
+			<electricity_consumption_off_peak_tariff/>
+			<electricity_production_single_tariff>0.05</electricity_production_single_tariff>
+			<electricity_production_peak_tariff/>
+			<electricity_production_off_peak_tariff/>
+			<modified_date>2024-04-14T09:35:41.520+02:00</modified_date>
+			<housing_construction_period>unknown</housing_construction_period>
+			<tariff_region>NL</tariff_region>
+			<electricity_consumption_tariff_structure>single</electricity_consumption_tariff_structure>
+			<thermostat_model/>
+			<housing_type>apartment</housing_type>
+			<postal_code/>
+			<household_adults>0</household_adults>
+			<household_children>0</household_children>
+			<currency>EUR</currency>
+			<latitude/>
+			<savings_result_unit/>
+			<deleted_date></deleted_date>
+			<created_date>2026-04-20T08:26:19+02:00</created_date>
+			<modified_date>2024-04-14T09:35:41.520+02:00</modified_date>
+		</gateway_environment>
+		<features>
+			<remote_control id='45e2814ba3974b7da38f775bc7846a32'>
+				<activation_date>2020-07-24T12:52:22+02:00</activation_date>
+				<expiration_date>2038-01-19T04:14:07+01:00</expiration_date>
+				<valid_from></valid_from>
+				<validity_period/>
+				<valid_to></valid_to>
+				<grace_period/>
+				<deleted_date></deleted_date>
+				<created_date>2020-07-24T12:52:22+02:00</created_date>
+				<modified_date>2020-07-16T14:06:32.647+02:00</modified_date>
+			</remote_control>
+			<remote_control id='66b8d58226ca4bdb903e7f084920485f'>
+				<activation_date>2020-07-24T12:53:35+02:00</activation_date>
+				<expiration_date>2038-01-19T04:14:07+01:00</expiration_date>
+				<valid_from></valid_from>
+				<validity_period/>
+				<valid_to></valid_to>
+				<grace_period/>
+				<deleted_date></deleted_date>
+				<created_date>2020-07-24T12:53:35+02:00</created_date>
+				<modified_date>2020-07-16T14:06:32.674+02:00</modified_date>
+			</remote_control>
+		</features>
+	</gateway>
+	<template id='736e1d40b5a849379dc9808b81ff2a0f' tag="electricity_triggered_actions">
+		<name>Electricity action trigger template</name>
+		<description>Template for triggering actions based on time and electricity production or consumption.</description>
+		<single_actor>true</single_actor>
+		<created_date>2023-01-10T04:34:13.827+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.847+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="meter" type="DirectObject"/>
+			<object name="direct_object" type="DirectObject"/>
+		</objects>
+		<parameters>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+			<parameter name="electricity_consumed" source="meter.electricity_consumed" type="Number"/>
+			<parameter name="averaged_electricity_produced" source="meter.averaged_electricity_produced" type="Number"/>
+			<parameter name="averaged_electricity_consumed" source="meter.averaged_electricity_consumed" type="Number"/>
+			<parameter name="electricity_produced" source="meter.electricity_produced" type="Number"/>
+		</parameters>
+		<results>
+			<result name="preset" action="direct_object.preset = preset" type="Preset"/>
+			<result name="domestic_hot_water_comfort_mode" action="direct_object.iterateFunctionalities('ToggleFunctionality', 'domestic_hot_water_comfort_mode')().setState(clock.addSeconds(null, 1), domestic_hot_water_comfort_mode)" type="OnOff"/>
+			<result name="state" action="direct_object.iterateFunctionalities('RelayFunctionality')().switch(clock.addSeconds(null, 1), state)" type="OnOff"/>
+			<result name="setpoint" action="direct_object.iterateFunctionalities('ThermostatFunctionality', 'thermostat')().setSetpoint(clock.addSeconds(null, 1), setpoint, setpoint)" type="Number"/>
+			<result name="domestic_hot_water_mode" action="direct_object.iterateFunctionalities('DomesticHotWaterModeControlFunctionality', 'domestic_hot_water_mode')().setMode(clock.addSeconds(null, 1), domestic_hot_water_mode)" type="DomesticHotWaterMode"/>
+			<result name="domestic_hot_water_setpoint" action="direct_object.iterateFunctionalities('ThermostatFunctionality', 'domestic_hot_water_setpoint')().setSetpoint(clock.addSeconds(null, 1), domestic_hot_water_setpoint)" type="Number"/>
+		</results>
+	</template>
+	<module id='8c7c7fec47244b3cbe2c5a99c8035c75'>
+		<vendor_name></vendor_name>
+		<vendor_model></vendor_model>
+		<hardware_version></hardware_version>
+		<firmware_version></firmware_version>
+		<created_date>2021-09-17T02:03:32.094+02:00</created_date>
+		<modified_date>2021-09-17T02:03:32.358+02:00</modified_date>
+		<deleted_date></deleted_date>
+		<services>
+			<gas_interval_meter id='67e9d82e358e4e91be4ad66a8a61722b' log_type='gas'>
+				<functionalities><interval_log id='71ebee9680b745b69624e3a04cb54b98'/></functionalities>
+			</gas_interval_meter>
+			<gas_cumulative_meter id='f3ad158f1f2f414aaff98b9480d4d160' log_type='gas'>
+				<functionalities><cumulative_log id='3cfc1b40e4b0407b87b2ce3df3d1b1dd'/></functionalities>
+			</gas_cumulative_meter>
+		</services>
+		<protocols>
+			<dsmr_gas id='15b9c48b1d7e412db696f0b702e189a7'>
+				<serial>G0039001769965717</serial>
+				<dsmr_main id='6143138cec4e480a8429d86a19d58413'/>
+			</dsmr_gas>
+		</protocols>
+	</module>
+	<module id='06df7f7a9171444a8ec2614a4241a3d6'>
+		<vendor_name>Plugwise</vendor_name>
+		<vendor_model>Gateway</vendor_model>
+		<hardware_version>AME Smile 2.0 board</hardware_version>
+		<firmware_version></firmware_version>
+		<created_date>2020-07-16T14:06:32.683+02:00</created_date>
+		<modified_date>2021-09-07T08:07:17.060+02:00</modified_date>
+		<deleted_date></deleted_date>
+		<services>
+			<network_address id='04271f0d047f422db7382720df59122e' log_type='wlan_ip_address'>
+				<functionalities><point_log id='68e87f7afa6d4d9d8ab3ed67d9b4c2a7'/></functionalities>
+			</network_address>
+			<network_state id='2efeed835afc4d9a91de6e8e3fcff151' log_type='wlan_state'>
+				<functionalities><point_log id='9e1b345b75824571b68da125641c30a7'/></functionalities>
+			</network_state>
+			<network_address id='c4fd9052cf6b4c24a30b9564a91a9334' log_type='lan_ip_address'>
+				<functionalities><point_log id='f3d44104a0ce4784be0fb8c535025880'/></functionalities>
+			</network_address>
+			<network_state id='cafa1e684033485d84266682d17e067f' log_type='lan_state'>
+				<functionalities><point_log id='465bbfce0071492b9094fbda8b5d2508'/></functionalities>
+			</network_state>
+		</services>
+		<protocols>
+			<wireless_local_area_network id='7ba942e83be74c039db3af980edbe080'/>
+			<local_area_network id='ad93b1df101c4582a943de803f7eecab'/>
+		</protocols>
+	</module>
+	<template id='808ba3120e5048b5982fe7170ba1c920' tag="relay_state_based_on_time">
+		<name>Relay schedule template</name>
+		<description>Template for scheduling relays on a time basis.</description>
+		<single_actor>true</single_actor>
+		<created_date>2022-10-30T02:46:12.458+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.803+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="direct_object" type="DirectObject"/>
+		</objects>
+		<parameters>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+		</parameters>
+		<results>
+			<result name="state" action="direct_object.iterateFunctionalities('RelayFunctionality')().state = state" type="OnOff"/>
+		</results>
+	</template>
+	<template id='eebe11124d8b426fbf0a6ba746560a3b' tag="zone_setpoint_and_state_based_on_preset">
+		<name>Zone preset template</name>
+		<description>Template for actuating thermostats and relays on a preset basis.</description>
+		<single_actor>true</single_actor>
+		<created_date>2022-10-30T02:46:12.484+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.814+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="zone" type="Location"/>
+		</objects>
+		<parameters>
+			<parameter name="preset" source="zone.preset" type="Preset"/>
+		</parameters>
+		<results>
+			<result name="cooling_setpoint" action="zone.iterateFunctionalities('ThermostatFunctionality', 'thermostat')().setSetpoint(null, null, cooling_setpoint)" type="Number"/>
+			<result name="domestic_hot_water_state" action="zone.iterateFunctionalities('ToggleFunctionality', 'domestic_hot_water_state')().state = domestic_hot_water_state" type="OnOff"/>
+			<result name="heating_setpoint" action="zone.iterateFunctionalities('ThermostatFunctionality', 'thermostat')().setSetpoint(null, heating_setpoint, null)" type="Number"/>
+			<result name="state" action="zone.iterateFunctionalities('RelayFunctionality')().state = state" type="OnOff"/>
+		</results>
+	</template>
+	<template id='cbc9af56672440a997d87ac975139860' tag="relay_state_based_on_time_and_preset">
+		<name>Relay schedule template</name>
+		<description>Template for scheduling relays on a time and preset basis.</description>
+		<single_actor>false</single_actor>
+		<created_date>2022-10-30T02:46:12.402+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.795+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="zone" type="Location"/>
+			<object name="direct_object" type="DirectObject"/>
+		</objects>
+		<parameters>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+			<parameter name="preset" source="zone.preset" type="Preset"/>
+		</parameters>
+		<results>
+			<result name="state" action="direct_object.iterateFunctionalities('RelayFunctionality')().state = state" type="OnOff"/>
+		</results>
+	</template>
+	<template id='4baf9d0cf4d3463ea21e6b79e02833d2' tag="relay_state_based_on_time_preset_temperature_and_humidity">
+		<name>Relay schedule template</name>
+		<description>Template for scheduling relays on a time, solar time, preset, temperature and humidity basis.</description>
+		<single_actor>false</single_actor>
+		<created_date>2022-10-30T02:46:12.431+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.800+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="zone" type="Location"/>
+			<object name="direct_object" type="DirectObject"/>
+		</objects>
+		<parameters>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+			<parameter name="preset" source="zone.preset" type="Preset"/>
+			<parameter name="temperature" source="zone.temperature" type="Number"/>
+			<parameter name="humidity" source="zone.humidity" type="Number"/>
+		</parameters>
+		<results>
+			<result name="state" action="direct_object.iterateFunctionalities('RelayFunctionality')().state = state" type="OnOff"/>
+		</results>
+	</template>
+	<module id='8ac14614dee94009a3a1c89389501501'>
+		<vendor_name>ISKRAEMECO</vendor_name>
+		<vendor_model>2M550T-1013</vendor_model>
+		<hardware_version></hardware_version>
+		<firmware_version></firmware_version>
+		<created_date>2021-09-07T07:49:52.008+02:00</created_date>
+		<modified_date>2023-09-19T19:21:13.193+02:00</modified_date>
+		<deleted_date></deleted_date>
+		<services>
+			<electricity_interval_meter id='01c4e66c5a114cccaddd1cc03f4f2613' log_type='electricity'>
+				<functionalities><interval_log id='915ed7cdea844fffb1d28bae2e1e2c39'/><interval_log id='ca733ff3c3974fd0b3978122ea9dbb0f'/></functionalities>
+			</electricity_interval_meter>
+			<electricity_point_meter id='050d696703614c61873fff511e9a3899' log_type='electricity'>
+				<functionalities><point_log id='49ab970e0aea45eda57f818abe580514'/><point_log id='4a059d6c7b8a469d8c32ba7536f48f19'/></functionalities>
+			</electricity_point_meter>
+			<electricity_point_meter id='0b6a2d822b084934b5946dd5f6ee977a' log_type='electricity_phase_one'>
+				<functionalities><point_log id='1f1058f50a0f497d86db365161d21f33'/><point_log id='662945535c354f1e86d72b052a649853'/></functionalities>
+			</electricity_point_meter>
+			<electricity_cumulative_meter id='0fb3e2722fa348318737b6cd30aabac1' log_type='electricity'>
+				<functionalities><cumulative_log id='0a589e5778984158a5d5ae81abac92a6'/><cumulative_log id='432e9a0089f9497b91cadcc6de16e8b6'/></functionalities>
+			</electricity_cumulative_meter>
+			<voltage_meter id='66230965bf3446c3afb89b5dc25a05af' log_type='voltage_phase_one'>
+				<functionalities><point_log id='83a8ac37bb5c482eb7b35e9a6f70fcf4'/></functionalities>
+			</voltage_meter>
+			<voltage_meter id='73dc9d8d889a4bf7b48df9bbc7418f25' log_type='voltage_phase_two'>
+				<functionalities><point_log id='71878a2d16c943578bd6a1d913ee69dd'/></functionalities>
+			</voltage_meter>
+			<electricity_point_meter id='82caf9894b064b3ab0a484cf37fef37d' log_type='electricity_phase_two'>
+				<functionalities><point_log id='87bab1269bd64378bc290bb3c0d0dbf9'/><point_log id='cbdcc598e8ea4ae28cb235ae3e3efeef'/></functionalities>
+			</electricity_point_meter>
+			<electricity_point_meter id='923bbe3b27f4486c8e0312f8b18f00c9' log_type='electricity_phase_three'>
+				<functionalities><point_log id='95331019a6894c89a437e1f08575d975'/><point_log id='e24a13e0c7084d519c1c351cd85ceffa'/></functionalities>
+			</electricity_point_meter>
+			<voltage_meter id='eb17d97189d641cf91279ccfec65e692' log_type='voltage_phase_three'>
+				<functionalities><point_log id='a3b9c1ecf28b4dbbb74c6ca00deed548'/></functionalities>
+			</voltage_meter>
+		</services>
+		<protocols>
+			<dsmr_main id='6143138cec4e480a8429d86a19d58413'>
+				<serial>E0054007768000920</serial>
+				<version>50</version>
+				<dsmr_mbuses/>
+			</dsmr_main>
+		</protocols>
+	</module>
+	<template id='fda9137880a940b182c35593b962f904' tag="domestic_hot_water_based_on_time">
+		<name>DHW schedule template</name>
+		<description>Template for scheduling DHW mode and state on a time basis.</description>
+		<single_actor>true</single_actor>
+		<created_date>2023-01-10T04:34:13.849+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.861+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="direct_object" type="DirectObject"/>
+		</objects>
+		<parameters>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+		</parameters>
+		<results>
+			<result name="domestic_hot_water_mode" action="direct_object.iterateFunctionalities('DomesticHotWaterModeControlFunctionality', 'domestic_hot_water_mode')().setMode(clock.addSeconds(null, 1), domestic_hot_water_mode)" type="DomesticHotWaterMode"/>
+			<result name="domestic_hot_water_comfort_mode" action="direct_object.iterateFunctionalities('ToggleFunctionality', 'domestic_hot_water_comfort_mode')().setState(clock.addSeconds(null, 1), domestic_hot_water_comfort_mode)" type="OnOff"/>
+			<result name="domestic_hot_water_setpoint" action="direct_object.iterateFunctionalities('ThermostatFunctionality', 'domestic_hot_water_setpoint')().setSetpoint(clock.addSeconds(null, 1), domestic_hot_water_setpoint)" type="Number"/>
+		</results>
+	</template>
+	<template id='3e3dad5813e64761870609caa0d5cbab' tag="default_client_presence_based_on_pointlog">
+		<name>Client, Pointlog presence template</name>
+		<description>Template for setting default client presence based on point_logs</description>
+		<single_actor>false</single_actor>
+		<created_date>2022-10-30T02:46:12.540+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.832+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="point_log" type="PointLogFunctionality"/>
+			<object name="client" type="Client"/>
+		</objects>
+		<parameters>
+			<parameter name="point_log_recently_used" source="point_log.wasRecentlyOn(null, 1800)" type="Boolean"/>
+		</parameters>
+		<results>
+			<result name="presence" action="client.setPresence(presence, 'rule')" type="Boolean"/>
+		</results>
+	</template>
+	<template id='caca995ba72b42a8bee055fc4ef27ce1' tag="zone_preset_based_on_time_and_presence_with_override">
+		<name>Zone preset schedule template</name>
+		<description>Template for scheduling presets on a presence or time basis with the option to override the preset&apos;s setpoint/state.</description>
+		<single_actor>true</single_actor>
+		<created_date>2022-10-30T02:46:12.512+01:00</created_date>
+		<modified_date>2025-12-06T18:27:47.826+01:00</modified_date>
+		<deleted_date></deleted_date>
+		<objects>
+			<object name="zone" type="Location"/>
+		</objects>
+		<parameters>
+			<parameter name="presence" source="zone.presence" type="Boolean"/>
+			<parameter name="time" source="clock.weekTime" type="WeekTime"/>
+		</parameters>
+		<results>
+			<result name="setpoint" action="zone.iterateFunctionalities('ThermostatFunctionality', 'thermostat')().setSetpoint(clock.addSeconds(null, 1), setpoint, setpoint)" type="Number"/>
+			<result name="preset" action="zone.preset = preset" type="Preset"/>
+			<result name="domestic_hot_water_state" action="zone.iterateFunctionalities('ToggleFunctionality', 'domestic_hot_water_state')().switch(clock.addSeconds(null, 1), domestic_hot_water_state)" type="OnOff"/>
+			<result name="state" action="zone.iterateFunctionalities('RelayFunctionality')().switch(clock.addSeconds(null, 1), state)" type="OnOff"/>
+		</results>
+	</template>
+	<appliance id='2c65dc553f5642ab88825365215bac69'>
+		<name>Gateway</name>
+		<description>Container for variables logged about the Gateway in general.</description>
+		<type>gateway</type>
+		<created_date>2020-07-16T14:06:33.237+02:00</created_date>
+		<modified_date>2026-04-21T22:30:58.377+02:00</modified_date>
+		<deleted_date></deleted_date>
+		<groups/>
+		<logs>
+			<point_log id='465bbfce0071492b9094fbda8b5d2508'>
+				<type>lan_state</type>
+				<unit></unit>
+				<updated_date>2026-04-21T22:30:58.357+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:30:58.357+02:00</last_consecutive_log_date>
+				<interval/>
+				<network_state id='cafa1e684033485d84266682d17e067f'/>
+				<period start_date="2026-04-21T22:30:58.357+02:00" end_date="2026-04-21T22:30:58.357+02:00">
+					<measurement log_date="2026-04-21T22:30:58.357+02:00">up</measurement>
+				</period>
+			</point_log>
+			<point_log id='68e87f7afa6d4d9d8ab3ed67d9b4c2a7'>
+				<type>wlan_ip_address</type>
+				<unit></unit>
+				<updated_date>2026-04-21T22:30:57+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:30:57+02:00</last_consecutive_log_date>
+				<interval/>
+				<network_address id='04271f0d047f422db7382720df59122e'/>
+				<period start_date="2026-04-21T22:30:57+02:00" end_date="2026-04-21T22:30:57+02:00">
+					<measurement log_date="2026-04-21T22:30:57+02:00">0.0.0.0</measurement>
+				</period>
+			</point_log>
+			<point_log id='9e1b345b75824571b68da125641c30a7'>
+				<type>wlan_state</type>
+				<unit></unit>
+				<updated_date>2026-04-21T22:30:57.322+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:30:57.322+02:00</last_consecutive_log_date>
+				<interval/>
+				<network_state id='2efeed835afc4d9a91de6e8e3fcff151'/>
+				<period start_date="2026-04-21T22:30:57.322+02:00" end_date="2026-04-21T22:30:57.322+02:00">
+					<measurement log_date="2026-04-21T22:30:57.322+02:00">down</measurement>
+				</period>
+			</point_log>
+			<point_log id='f3d44104a0ce4784be0fb8c535025880'>
+				<type>lan_ip_address</type>
+				<unit></unit>
+				<updated_date>2026-04-21T22:30:58+02:00</updated_date>
+				<last_consecutive_log_date>2026-04-21T22:30:58+02:00</last_consecutive_log_date>
+				<interval/>
+				<network_address id='c4fd9052cf6b4c24a30b9564a91a9334'/>
+				<period start_date="2026-04-21T22:30:58+02:00" end_date="2026-04-21T22:30:58+02:00">
+					<measurement log_date="2026-04-21T22:30:58+02:00">192.168.200.79</measurement>
+				</period>
+			</point_log>
+		</logs>
+		<actuator_functionalities/>
+	</appliance>
+</domain_objects>
