@@ -25,7 +25,7 @@ test.describe("custom meter type override", async () => {
     await page.waitForLoadState("networkidle");
 
     const editor = meterModal.getByTestId("yaml-editor");
-    await editorClear(editor, 20);
+    await editorClear(editor);
     await editorPaste(
       editor,
       page,
@@ -51,5 +51,12 @@ uri: http://${simulatorHost()}`
     await expect(page.getByTestId("fatal-error")).not.toBeVisible();
     await expect(page.getByTestId("grid")).toBeVisible();
     await expect(page.getByTestId("grid")).toContainText(["Energy", "0.0 kWh"].join(""));
+
+    // edit
+    await page.getByTestId("grid").getByRole("button", { name: "edit" }).click();
+    await expectModalVisible(meterModal);
+    const editAgain = meterModal.getByTestId("yaml-editor");
+    await expect(editAgain).toBeVisible();
+    await expect(editAgain).toContainText("type: shelly");
   });
 });
